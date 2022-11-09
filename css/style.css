@@ -1,0 +1,67 @@
+@import url("../css/fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 95px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(9px);
+}
+
+header a img {
+    height: 49.98px;
+    margin-top: 27px;
+}
+
+.text_logo{
+    font-size: 13px;
+    line-height: 18px;
+    padding-top: 34px;
+    font-family: 'Galos Regular';
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_btn:hover {
+    border: 1px solid #9B59FE;
+    color: #9B59FE;
+}
+
+.nav_btn {
+    height: 38px;
+    padding: 10px 17px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    border-radius: 48px;
+    color: #2C2C34;
+    font-family: 'Galos Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#last_nav_btn {
+    padding: 10px 17px;
+    height: 38px;
+    background: #2C2C34;
+    border-radius: 48px;
+    font-family: 'Galos Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+

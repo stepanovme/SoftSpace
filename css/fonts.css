@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Averta Regular';
+    src: local("Averta Regular") 
+        url("../fonts/AvertaRegular.woff2") format("woff2"),
+        url("../fonts/AvertaRegular.woff") format("woff"),
+        url("../fonts/AvertaRegular.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'FeTuraBookC Regular';
+    src: local("FeTuraBookC Regular") 
+        url("../fonts/FuturaBookCRegular.woff2") format("woff2"),
+        url("../fonts/FuturaBookCRegular.woff") format("woff"),
+        url("../fonts/FuturaBookCRegular.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'FeTuraMediumC';
+    src: local("FeTuraMediumC") 
+        url("../fonts/futuramediumc.woff2") format("woff2"),
+        url("../fonts/futuramediumc.woff") format("woff"),
+        url("../fonts/futuramediumc.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'Galos DemiBold';
+    src: local("Galos DemiBold") 
+        url("../fonts/GolosDemiBold.woff2") format("woff2"),
+        url("../fonts/GolosDemiBold.woff") format("woff"),
+        url("../fonts/GolosDemiBold.eot") format("eot");
+}
+
+@font-face {
+    font-family: "Galos Medium";
+    src: local("Galos Medium"),
+        url("../fonts/GolosMedium.woff2") format("woff2"),
+        url("../fonts/GolosMedium.woff") format("woff"),
+        url("../fonts/GolosMedium.eot") format("eot");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+  }
+
+@font-face {
+    font-family: 'Galos Regular';
+    src: local("Galos Regular"),
+        url("../fonts/GolosRegular.woff2") format("woff2"),
+        url("../fonts/GolosRegular.woff") format("woff"),
+        url("../fonts/GolosRegular.eot") format("eot");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: local("HelveticaNeue"),
+        url("../fonts/helveticaneuecyrroman.woff2") format("woff2"),
+        url("../fonts/helveticaneuecyrroman.woff") format("woff"),
+        url("../fonts/helveticaneuecyrroman.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'Proximanova Bold';
+    src: local("Proximanova Bold"),
+        url("../fonts/proximanovabold.woff2") format("woff2"),
+        url("../fonts/proximanovabold.woff") format("woff"),
+        url("../fonts/proximanovabold.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'Proximanova Regular';
+    src: local("Proximanova Regular"),
+        url("../fonts/proximanovaregular.woff2") format("woff2"),
+        url("../fonts/proximanovaregular.woff") format("woff"),
+        url("../fonts/proximanovaregular.eot") format("eot");
+}
+
+
+@font-face {
+    font-family: 'Proximanova Semibold';
+    src: local("Proximanova Semibold"),
+        url("../fonts/ProximaNovaSemibold.woff2") format("woff2"),
+        url("../fonts/ProximaNovaSemibold.woff") format("woff"),
+        url("../fonts/ProximaNovaSemibold.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'SFProDisplay Bold';
+    src: local("SFProDisplay Bold"),
+        url("../fonts/SFProDisplayBold.woff2") format("woff2"),
+        url("../fonts/SFProDisplayBold.woff") format("woff"),
+        url("../fonts/SFProDisplayBold.eot") format("eot");
+}
