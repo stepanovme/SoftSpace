@@ -112,6 +112,8 @@ header a img {
     background-color: transparent;
     color: #2C2C34;
     cursor: pointer;
+    transition: 0.45s;
+    margin-left: 18px;
 }
 
 .home_btn:hover {
