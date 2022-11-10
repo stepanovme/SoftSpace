@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     height: 95px;
     width: 100%;
@@ -35,6 +39,7 @@ header a img {
     color: #9B59FE;
 }
 
+
 .nav_btn {
     height: 38px;
     padding: 10px 17px;
@@ -64,6 +69,11 @@ header a img {
     color: #FFFFFF;
 }
 
+#last_nav_btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    color: #FFFFFF;
+}
+
 .home {
     z-index: -1;
     height: 787px;
@@ -77,6 +87,11 @@ header a img {
     font-size: 60px;
     line-height: 72px;
     color: #2C2C34;
+}
+
+.home_case {
+    display: flex;
+    justify-content: space-between;
 }
 
 .home_round_btn {
@@ -100,7 +115,6 @@ header a img {
 }
 
 .home_btn {
-    justify-content: space-between;
     margin-top: 120px;
     padding: 9px;
     height: 36px;
@@ -118,6 +132,10 @@ header a img {
     background: #9B59FE;
     border: 1px solid #9B59FE;
     color: #FFFFFF;
+}
+
+.row-section-2{
+    display: inline-block;
 }
 
 .ractangale_1 {
@@ -139,7 +157,7 @@ header a img {
     left: 379px;
     top: -261.24px;
     z-index: -1;
-    background: #D9D9D9;
+    background: rgba(207, 212, 227, 0.67);
     border-radius: 45px;
     transform: rotate(-14.62deg);
 
@@ -277,8 +295,202 @@ header a img {
     transform: rotate(-14.62deg);
 }
 
+.ractangale_14 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1114px;
+    top: -463.24px;
+    background: rgba(235, 87, 87, 0.23);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_15 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1849px;
+    top: 582.76px;
+    background: rgba(217, 217, 217, 0.26);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.row-section-2 div {
+    animation: animate1 15s linear infinite;
+    animation-delay: 0s;
+    z-index: -300;
+    rotate: -14.62deg;
+    animation-direction: alternate;
+} 
+
+.row-section-1 div {
+    animation: animate2 15s linear infinite;
+    animation-delay: 0s;
+    z-index: -300;
+    rotate: -14.62deg;
+    animation-direction: alternate;
+} 
+
+.row-section-3 div {
+    animation: animate2 15s linear infinite;
+    animation-delay: 0s;
+    z-index: -300;
+    rotate: -14.62deg;
+    animation-direction: alternate;
+} 
+
+.row-section-4 div {
+    animation: animate1 15s linear infinite;
+    animation-delay: 0s;
+    z-index: -300;
+    rotate: -14.62deg;
+    animation-direction: alternate;
+} 
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+ @keyframes animate2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 .dignities {
 height: 386px;
 background: #2C2C34;
 }
 
+.card_1 span {
+    position: absolute;
+    left: 523px;
+    top: 994px;
+    width: 374.16px;
+    height: 108px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.card_2 span {
+    position: absolute;
+    left: 1187px;
+    top: 994px;
+
+    width: 374.16px;
+    height: 108px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.card_3 span {
+    position: absolute;
+    left: 1982px;
+    top: 994px;
+    width: 374.16px;
+    height: 108px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.card_4 span {
+    position: absolute;
+    left: 2794px;
+    top: 994px;
+    width: 374.16px;
+    height: 108px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.card_5 span {
+    position: absolute;
+    left: 3768px;
+    top: 994px;
+    width: 374.16px;
+    height: 108px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.star_1 {
+    position: absolute;
+    left: 367px;
+    top: 1001px;
+}
+
+.star_2 {
+    position: absolute;
+    left: 1051px;
+    top: 995px;
+}
+
+.star_3 {
+    position: absolute;
+    left: 1842px;
+    top: 997px;
+}
+
+.star_4 {
+    position: absolute;
+    left: 2638px;
+    top: 997px;
+}
+
+.star_5 {
+    position: absolute;
+    left: 3636px;
+    top: 997px;
+}
+
+.card img {
+    width: 74px;
+    height: 124px;
+}
+
+.dignities row {
+    animation: animate1 15s linear infinite;
+    animation-delay: 0s;
+    z-index: -300;
+    rotate: -14.62deg;
+    animation-direction: alternate;
+} 
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
