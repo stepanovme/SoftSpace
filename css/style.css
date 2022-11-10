@@ -8,7 +8,7 @@
 header {
     height: 95px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(9px);
 }
@@ -64,4 +64,221 @@ header a img {
     color: #FFFFFF;
 }
 
+.home {
+    z-index: -1;
+    height: 787px;
+}
+
+.home h1 {
+    height: 216px;
+    margin-top: 172px;
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2C2C34;
+}
+
+.home_round_btn {
+
+    width: 139.26px;
+    height: 140px;
+    margin-top: 34px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home_round_link {
+    display: inline-block;
+    font-family: 'Galos Medium';
+    font-size: 21px;
+    color: #2C2C34;
+    margin-top: 91px;
+    margin-left: 29.74px;
+    vertical-align: top;
+}
+
+.home_btn {
+    justify-content: space-between;
+    margin-top: 120px;
+    padding: 9px;
+    height: 36px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    font-family: 'Galos Medium';
+    line-height: 18px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #2C2C34;
+    cursor: pointer;
+}
+
+.home_btn:hover {
+    background: #9B59FE;
+    border: 1px solid #9B59FE;
+    color: #FFFFFF;
+}
+
+.ractangale_1 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: -356px;
+    top: -59.24px;
+    z-index: -1;
+    background: rgba(242, 201, 76, 0.28);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_2 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 379px;
+    top: -261.24px;
+    z-index: -1;
+    background: #D9D9D9;
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+
+}
+
+.ractangale_3 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: -356px;
+    top: 356.76px;
+    z-index: -1;
+    background: rgba(86, 204, 242, 0.21);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_4 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 379px;
+    top: 154.76px;
+    z-index: -1;
+    background: rgba(217, 217, 217, 0.32);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_5 {
+        position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1114px;
+    top: -47.24px;
+    z-index: -1;
+    background: rgba(47, 128, 237, 0.27);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_6 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1849px;
+    top: -249.24px;
+    z-index: -1;
+    background: rgba(111, 207, 151, 0.22);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_7 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: -356px;
+    top: 772.76px;
+    z-index: -1;
+    background: rgba(235, 87, 87, 0.23);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_8 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 379px;
+    top: 570.76px;
+    z-index: -1;
+    background: rgba(47, 128, 237, 0.27);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_9 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1114px;
+    top: 368.76px;
+    z-index: -1;
+    background: rgba(111, 207, 151, 0.22);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_10 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1849px;
+    top: 166.76px;
+    z-index: -1;
+    background: rgba(207, 212, 227, 0.67);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_11 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 379px;
+    top: 986.76px;
+    z-index: -1;
+    background: rgba(242, 153, 74, 0.42);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_12 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1114px;
+    top: 784.76px;
+    z-index: -1;
+    background: rgba(242, 201, 76, 0.28);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.ractangale_13 {
+    position: absolute;
+    width: 716.23px;
+    height: 354.08px;
+    left: 1849px;
+    top: 582.76px;
+    z-index: -1;
+    background: rgba(217, 217, 217, 0.26);
+    border-radius: 45px;
+    transform: rotate(-14.62deg);
+}
+
+.dignities {
+height: 386px;
+background: #2C2C34;
+}
 

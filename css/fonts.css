@@ -23,8 +23,8 @@
 }
 
 @font-face {
-    font-family: 'Galos DemiBold';
-    src: local("Galos DemiBold") 
+    font-family: 'Golos DemiBold';
+    src: local("Golos DemiBold") 
         url("../fonts/GolosDemiBold.woff2") format("woff2"),
         url("../fonts/GolosDemiBold.woff") format("woff"),
         url("../fonts/GolosDemiBold.eot") format("eot");
