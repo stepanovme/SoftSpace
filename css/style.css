@@ -1137,3 +1137,80 @@ border-radius: 20px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.51);
 }
+
+.request{
+    padding-top: 170px;
+}
+
+.request_img{
+    position: absolute;    
+}
+
+.request_form{
+    color: #2C2C34;
+    font-family: 'Golos Regular';
+    font-style: normal;
+}
+
+.request_form .title{
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 448px;
+}
+
+.request_form .description{
+    padding-top: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+.request_form .set_request{
+    padding-top: 44.33px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 57px;
+}
+
+.form_name{
+    font-weight: 500;
+    font-size: 27px;
+    text-align: top;
+    padding-left: 23px;
+    padding-bottom: 20.67px;
+    border: none;
+    border-bottom: 1px solid grey;
+    min-width: 487px;
+    margin-bottom: 73px;   
+}
+
+.form_name :focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9B59FE;
+}
+
+.form_number{
+    font-weight: 500;
+    font-size: 27px;
+    text-align: top;
+    padding-left: 23px;
+    padding-bottom: 20.67px;  
+    border: none;
+    border-bottom: 1px solid grey;
+    min-width: 487px;   
+}
+
+.form_number :focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9B59FE;
+}
