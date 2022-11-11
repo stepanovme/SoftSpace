@@ -1159,27 +1159,9 @@ border-radius: 20px;
     color: rgba(255, 255, 255, 0.51);
 }
 
-<<<<<<< HEAD
-.horizontal-scroll-wrapper {
-    width: 100px;
-    height: 300px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transform: rotate(-90deg);
-    transform-origin: right top;
-    transform:rotate(-90deg) translateY(-100px);
-}
-
-.horizontal-scroll-wrapper > div {
-    width: 100px;
-    height: 100px;
-    transform: rotate(90deg);
-    transform-origin: right top;
-}
-=======
 .request{
-    padding-top: 170px;
-}
+        padding-top: 170px;
+    }
 
 .request_img{
     position: absolute;    
@@ -1253,4 +1235,4 @@ border-radius: 20px;
     border: none;
     border-bottom: 2px solid #9B59FE;
 }
->>>>>>> 59ae3a704cb4f46e98858ff48beadab5c0399e82
+
