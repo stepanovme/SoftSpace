@@ -190,7 +190,7 @@ header a img {
 }
 
 .ractangale_5 {
-        position: absolute;
+    position: absolute;
     width: 716.23px;
     height: 354.08px;
     left: 1114px;
@@ -380,7 +380,7 @@ background: #2C2C34;
     top: 994px;
     width: 374.16px;
     height: 108px;
-    font-family: 'Golos';
+    font-family: 'Golos DemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -395,7 +395,7 @@ background: #2C2C34;
 
     width: 374.16px;
     height: 108px;
-    font-family: 'Golos';
+    font-family: 'Golos DemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -409,7 +409,7 @@ background: #2C2C34;
     top: 994px;
     width: 374.16px;
     height: 108px;
-    font-family: 'Golos';
+    font-family: 'Golos DemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -423,7 +423,7 @@ background: #2C2C34;
     top: 994px;
     width: 374.16px;
     height: 108px;
-    font-family: 'Golos';
+    font-family: 'Golos DemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -437,7 +437,7 @@ background: #2C2C34;
     top: 994px;
     width: 374.16px;
     height: 108px;
-    font-family: 'Golos';
+    font-family: 'Golos DemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -480,19 +480,660 @@ background: #2C2C34;
     height: 124px;
 }
 
-.dignities row {
-    animation: animate1 15s linear infinite;
+.card_animation {
+    display: flex;
+    right: -100%;
+    z-index: 100;
+    animation: animate4 60s infinite;
     animation-delay: 0s;
-    z-index: -300;
-    rotate: -14.62deg;
-    animation-direction: alternate;
+    padding-top: 119px;
 } 
 
-@keyframes animate1 {
+@keyframes animate4 {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-400%);
     }
     100% {
         transform: translateX(0%);
     }
+}
+
+.customers {
+    height: 1603px;
+    z-index: 100;
+    background: #FFFFFF;
+    padding-top: 80px;
+}
+
+.customers_title span{
+font-family: 'Golos DemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 72px;
+}
+
+.customers_list {
+    padding-top: 79.44px;
+}
+
+.customers_list hr {
+    height: 1px;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.customers_num {
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 170.5%;
+    color: #FFC535;
+}
+
+.list {
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.list_1 {
+    display: flex;
+    padding-bottom: 31px;
+}
+
+.customers_name {
+height: 49px;
+font-family: 'Golos DemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 170.5%;
+/* or 49px */
+color: #2C2C34;
+}
+
+.customers_descr {
+    height: 81px;
+    font-family: 'Galos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170.5%;
+    /* or 27px */
+    color: #2C2C34;
+}
+
+.img {
+    width: 77px;
+    height: 72.12px;
+}
+
+.mission_descr {
+    display: flex;
+}
+
+.mission {
+    margin-top: 34px;
+}
+
+.mission_icon {
+    margin-left: 296px;
+}
+
+.mission_title {
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 69px;
+    line-height: 121%;
+    /* or 83px */
+    color: #2C2C34;
+}
+
+.dash {
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 69px;
+    line-height: 121%;
+    /* or 83px */
+    color: #2C2C34;
+    padding-right: 17px;
+}
+
+.descr {
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 121%;
+    color: #2C2C34;
+    margin-top: 20px;
+}
+
+.pr_mission_title {
+font-family: 'Golos DemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 170.5%;
+color: #2C2C34;
+}
+
+.mission .first {
+    margin-top: 37px;
+}
+
+.mission .second {
+    margin-top: 39px;
+}
+
+.mission .third {
+    margin-top: 25px;
+}
+
+.pr_mission_descr {
+    font-family: 'Golos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170.5%;
+    color: #2C2C34;
+}
+
+.mission button {
+    padding: 24px 50px;
+    background: #2C2C34;
+    margin-top: 39px;
+    border-radius: 48px;
+    font-family: 'Golos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.achievements {
+    margin-top: 64px;
+}
+
+.phone {
+    margin-left: 550px;
+}
+
+.wind {
+    display: flex;
+    z-index: -10;
+    position: absolute;
+    left: 64px;
+    top: 2989px;
+    animation: animate3 30s linear infinite;
+    animation-delay: 0s;
+
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(-40%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.case {
+    margin-top: 953px;
+    height: 903px;
+    background: #2C2C34;
+
+}
+
+.step_1 {  
+    height: 520px;
+    width: 520px;
+    background: #F2F2F2;
+    border-radius: 100%;
+    margin-top: 304px;
+}
+
+.round img {
+    width: 406px;
+    height: 406px;
+    margin-top: 16px;
+    margin-left: 48px;
+}
+
+.small_round {
+    position: relative;
+    width: 38.11px;
+    height: 38.11px;
+    background: #2C2C34;
+    margin-left: 144px;
+    top: -58px;
+    border-radius: 100%;
+    font-family: 'Galos Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.9323px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.round span {
+    position: relative;
+    width: 180px;
+    height: 32px;
+    font-family: 'Galos Medium';
+    font-style: normal;
+    font-weight: 500;
+    top: -58px;
+    font-size: 26.5143px;
+    line-height: 32px;
+    text-align: center;
+    color: #2C2C34;
+    margin-left: 5px;
+}
+
+.step_title {
+    position: relative;
+    width: 472px;
+    height: 252px;
+    left: 406px;
+    top: -420px;
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.step_descr {
+    position: relative;
+    width: 496px;
+    height: 62px;
+    left: 406px;
+    top: -400px;
+    font-family: 'Golos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170.5%;
+    color: #FFFFFF;
+}
+
+.uno{
+    margin-left: 1150px;
+}
+.steps {
+    position: relative;
+    display: flex;
+    left: 300px;
+}
+
+.step_6 {
+    background: #FFC535;
+}
+
+.step_btn {
+    top: -490px;
+}
+
+.round .span_6 {
+    position: relative;
+    width: 180px;
+    height: 32px;
+    font-family: 'Galos Medium';
+    font-style: normal;
+    font-weight: 500;
+    top: -58px;
+    left: 139px;
+    font-size: 26.5143px;
+    line-height: 32px;
+    text-align: center;
+    color: #2C2C34;
+    margin-left: 5px;
+}
+
+.small_round_6 {
+    margin-left: 110px;
+}
+
+.small_round_3 {
+    margin-left: 120px;
+}
+
+.small_round_4 {
+    margin-left: 104px;
+}
+
+.cases {
+    background: #2C2C34;
+    padding-bottom: 80px;
+}
+
+.cases span {
+    width: 224px;
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.e-comerce {
+    height: 432px;
+    width: 100%;
+    background: linear-gradient(82.39deg, #9B59FE 18.72%, #9B59FE 73.49%, #B384FB 100%);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.first-row-case {
+    padding-top: 64px;
+}
+
+.second-row {
+    display: flex;
+    padding-top: 20px;
+}
+
+.investing {
+    height: 571px;
+    width: 100%;
+    background: linear-gradient(53.52deg, #FD4154 13.59%, #FD4154 62.09%, #FF5768 94.33%);
+border-radius: 20px;
+}
+
+.deliviry {
+    height: 571px;
+    width: 100%;
+    margin-left: 20px;
+    background: linear-gradient(55.9deg, #80E220 18.65%, #80E220 68.39%, #B9F281 90.97%);
+    border-radius: 20px;
+}
+
+.moment{
+height: 180px;
+width: 100%;
+background: linear-gradient(256.52deg, #8394E9 12.6%, #4F61B8 52.63%);
+border-radius: 20px;
+
+}
+
+.matur {
+    height: 180px;
+    width: 100%;
+    margin-left: 20px;
+    background: linear-gradient(250.46deg, #D8C3D2 19.14%, #BB96B0 52.97%);
+    border-radius: 20px;
+}
+
+.all-projects {
+    height: 180px;
+    width: 100%;
+    margin-left: 20px;
+    background: rgba(242, 242, 242, 0.12);
+    border-radius: 20px;
+    font-family: 'Galos Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.5143px;
+    border: none;
+    line-height: 32px;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.all-projects img{
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.info img {
+    margin-top: 105px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+
+.e-comerce_title {
+    position: relative;
+    width: 482px;
+    height: 42px;
+    top:-45px;
+    left: 150px;
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.e-comerce_descr {
+    width: 522px;
+    height: 81px;
+    margin-left: 78px;
+    font-family: 'Galos Regular';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 170.5%;
+    color: #FFFFFF;
+}
+
+.e-comerce_btn {
+    padding: 24px 50px;
+    margin-left: 78px;
+    margin-top: 31px;
+    width: 189px;
+    height: 66px;
+    background: #2C2C34;
+    border: none;
+    font-family: 'Galos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+.info_picture {
+    position: relative;
+    bottom: 471px;
+    left: 350px;
+}
+
+.second_e-comerce_phone {
+    position: relative;
+    bottom: 934px;
+    left: 175px;
+}
+
+.invest {
+    margin-top: 37px;
+    margin-left: 80px;
+}
+
+.iinvest_title {
+    position: relative;
+    bottom: 45px;
+    left: 150px;
+    width: 213px;
+    height: 42px;
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.invest_descr {
+    width: 483px;
+    height: 81px;
+    margin-left: 78px;
+    margin-top: -30px;
+    font-family: 'Galos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170.5%;
+    color: #FFFFFF;
+}
+
+.invest_picture {
+    margin-top: 24px;
+
+}
+
+.investing {
+    position: relative;
+    display: block;
+}
+
+.delivery_title {
+    width: 100%;
+    color: #2A2A32;
+}
+
+.delivery_descr {
+    color: #2A2A32;
+}
+
+.moment_img {
+    margin-top: 48px;
+    margin-left: 56px;
+}
+
+.info_3 {
+    position: relative;
+    top: -75px;
+    left: 171px;
+}
+
+.moment_title {
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 134%;
+    color: #FFFFFF;
+}
+
+.moment_descr {
+    font-family: 'Galos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.reviews {
+    background: #2C2C34;
+
+    width: 100%;
+}
+
+.reviews span {
+    width: 271px;
+    height: 84px;
+    font-family: 'Golos DemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+.scroll_btn {
+    width: 57.62px;
+    vertical-align: middle;
+    margin-top: 43px;
+    cursor: pointer;
+    margin-right: 18px;
+    height: 41px;
+    border: 1.10811px solid #FFFFFF;
+    border-radius: 6px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-color: transparent;
+}
+
+
+.reviews_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll_btn:hover {
+    border: 1.10811px solid #FFFFFF;
+    background-color: #FFFFFF;  
+}
+
+.scroll_btn img:hover {
+    background: url("/img/chevron-left.png");
+}
+
+.reviews_list img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 58px;
+    width: 267.75px;
+    height: 90px;
+}
+
+.view_reviews_list {
+    width: 300%;
+    right: 300px;
+    height: 236px;
+    padding-top: 52px;
+    background: #2C2C34;
+}
+
+.reviews_list {
+    position: relative;
+    left: 270px;
+}
+
+.reviews_list_raiting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 48px;
+    left: 775px;
+}
+
+.reviews_list_raiting img {
+    width: 27px;
+    height: 24px;
+}
+
+.reviews_list_raiting span {
+    margin-left: 17px;
+    width: 163px;
+    height: 46px;
+    font-family: 'Galos Medium';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+#avg_rait {
+    width: 127px;
+    height: 19px;
+    font-family: 'Golos Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.51);
 }
