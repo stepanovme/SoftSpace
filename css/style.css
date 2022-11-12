@@ -1169,7 +1169,7 @@ border-radius: 20px;
 
 .request_form{
     color: #2C2C34;
-    font-family: 'Golos Regular';
+    font-family: 'Galos Medium';
     font-style: normal;
 }
 
@@ -1178,9 +1178,6 @@ border-radius: 20px;
     font-weight: 600;
     font-size: 60px;
     line-height: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 448px;
 }
 
 .request_form .description{
@@ -1188,9 +1185,6 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: 170.5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 480px;
 }
 
 .request_form .set_request{
@@ -1236,3 +1230,12 @@ border-radius: 20px;
     border-bottom: 2px solid #9B59FE;
 }
 
+
+.request_link{
+    padding-top: 60px;
+}
+
+.request_btn{
+    border: solid 0px transparent;
+    border-radius: 100%;
+}
