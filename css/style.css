@@ -374,6 +374,7 @@ header a img {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
+    background: #2C2C34;
 }
 
 .dignities_wrapper {
@@ -1243,6 +1244,7 @@ border-radius: 20px;
     display: flex;
     flex-direction: row;
     min-height: 100vh;
+    background: #2C2C34;
 }
 
 .step_1 {
