@@ -40,3 +40,17 @@ $(function () {
       }
   });
 });
+
+
+let ball = document.querySelector('.reviews_list');
+let leftButton = document.querySelector('#left');
+let rightButton = document.querySelector('#right');
+
+leftButton.addEventListener('click', function(e){
+  let goLeft = ball.offsetLeft;
+  ball.style.left = goLeft - 268 + "px";
+});
+rightButton.addEventListener('click', function(e){
+  let goRight = ball.offsetLeft;
+  ball.style.left = goRight + 268 + "px";
+});
