@@ -9,6 +9,7 @@
 body {
     overflow-x: hidden;
     height: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -374,6 +375,7 @@ header a img {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
+    background: #2C2C34;
 }
 
 .dignities_wrapper {
@@ -1191,8 +1193,16 @@ border-radius: 20px;
     border-radius: 6px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     background-color: transparent;
-    background-image: url('/img/arrow-down-left.png') no-repeat cover center;
+    
 }
+
+.arrow{
+    background-image: url('/img/chevron.png') ;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+
 
 
 .reviews_title {
@@ -1203,10 +1213,6 @@ border-radius: 20px;
 .arrow {
     cursor: pointer;
     height: 120px;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
     transition: transform .1s;
     width: 80px;
 }
@@ -1216,8 +1222,10 @@ border-radius: 20px;
     background-color: #FFFFFF;  
 }
 
-.scroll_btn img:hover {
-    background: url("/img/chevron-left.png");
+.scroll_btn .arrow_left:hover {
+    background: url("/img/li_chevron-lef1t.svg");
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 .reviews_list img{
@@ -1464,8 +1472,10 @@ footer {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
+
     box-sizing: content-box;
     border: none;
+    background: #2C2C34;
 }
 
 .step_1 {
@@ -1609,6 +1619,123 @@ footer {
     color: #FFFFFF;
 }
 
-.e-comerce .info_picture :hover {
+@media only screen and (max-width: 1200px){
+    .text_logo {
+        padding-top: 20px;
+        margin-left: 50px;
+    }
+    .nav_btn {
+        margin-left: 10px;
+        padding: 1px 17px;
+        line-height: 14px;
+    }
+    #last_nav_btn {
+        padding: 6px 17px;
+        line-height: 13px;
+    }
+    .home h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .h1_req {
+        display: flex;
+    }
+
+    .home_btn {
+        font-size: 13px;
+    }
+
+    .dignities_item_2 span {
+    margin-top: -40px;
+    margin-left: -1px;
+    font-size: 36px;
+}   
+.dignities_item_2 img {
+    width: 300px;
+    height: 205px;
+}
+.phone {
+    margin-left: -74px;
+    margin-top: 61px;
+    z-index: 2;
+}
+
+.pin_spacer {
+    display: none;
+
+}
+
+.info_picture {
+   display: none;
+}
+.invest_pict {
+   display: none;
+    
+}
+
+.deliviry_pict {
+    display: none;
+}
+
+.deliviry {
+    height: 275px;
+}
+
+.investing {
+    height: 275px;
+}
+
+.moment_img {
+    margin-left: 23px;
+}
+
+.info_3 {
+    left: 119px;
+}
+
+.moment_descr {
+    font-size: 14px;
+}
+
+.reviews_list_raiting {
+    left: 378px;
+}
+
+.request {
+    padding-top: -2px;
+}
+
+.request_img {
+    position: absolute;
+    left: -408px;
+    z-index: -1;
+    transform: scale(0.8);
+    margin-top: 33px;
+}
+
+.subber {
+    margin-top: 73px;
+    margin-left: -20px;
+}
+
+.dignities_wrapper{
+    overflow-x: hidden;
+}
+
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+}
+
+@media only screen and (max-width: 480px){
+    
+}
+
+@media only screen and (max-width: 320px){
     
 }
