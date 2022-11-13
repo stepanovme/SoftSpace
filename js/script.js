@@ -18,7 +18,7 @@ $(function () {
   $(window).on('scroll.progress', function () {
       var scrollTop = $(this).scrollTop();
 
-      if (scrollTop > 1500 /* Нужное значение на странице */ ) {
+      if (scrollTop > 2000 /* Нужное значение на странице */ ) {
         gsap.registerPlugin(ScrollTrigger);
 
         let sections = gsap.utils.toArray(".step_1");

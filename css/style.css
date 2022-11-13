@@ -579,18 +579,19 @@ color: #2C2C34;
 
 .achievements {
     margin-top: 64px;
+    padding-bottom: 200px;
 }
 
 .phone {
     margin-left: 550px;
+    z-index: 2;
 }
 
 .wind {
+    position: relative;
     display: flex;
-    z-index: -10;
-    position: absolute;
-    left: 64px;
-    top: 2989px;
+    z-index: -100;
+    margin-top: -1000px;
     animation: animate3 30s linear infinite;
     animation-delay: 0s;
 
